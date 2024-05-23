@@ -9,9 +9,10 @@ class LoginPage extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           'Norvic International Hospital',
+          style: TextStyle(color: Colors.white),
           textAlign: TextAlign.center,
         ),
-        backgroundColor: Colors.green,
+        backgroundColor: const Color.fromARGB(255, 3, 71, 126),
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -26,7 +27,8 @@ class LoginPage extends StatelessWidget {
               ),
               // SizedBox(height: 10),
               Text('Sign in to your account',
-                  style: TextStyle(color: Colors.green)),
+                  style:
+                      TextStyle(color: const Color.fromARGB(255, 3, 71, 126))),
               SizedBox(height: 20),
               TextFormField(
                 decoration: InputDecoration(
@@ -58,10 +60,10 @@ class LoginPage extends StatelessWidget {
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
                         ),
-                        backgroundColor: Colors.green),
+                        backgroundColor: const Color.fromARGB(255, 3, 71, 126)),
                     onPressed: () {},
                     child:
-                        Text('Login', style: TextStyle(color: Colors.black))),
+                        Text('Login', style: TextStyle(color: Colors.white))),
               ),
               SizedBox(height: 15),
               Text(

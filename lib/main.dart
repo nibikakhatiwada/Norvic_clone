@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.light(
-          primary: Colors.green,
+          primary: const Color.fromARGB(255, 3, 71, 126),
         ),
       ),
       // home: LoginPage(),
